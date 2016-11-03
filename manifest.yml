@@ -10,11 +10,10 @@ applications:
 - services:
   - iot-phone-cloudant-cloudantNoSQLDB
   - iot-phone-iotf-service
-  host: iot-phone
+  host: iot-phone-lma
   name: iot-phone
   disk: 128M
   command: node app.js
   path: .
-  domain: mybluemix.net
   memory: 128M 
   instances: 1
