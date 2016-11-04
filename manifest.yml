@@ -1,7 +1,7 @@
 declared-services:
   iot-phone-cloudant-cloudantNoSQLDB:
     label: cloudantNoSQLDB
-    plan: Shared
+    plan: Lite
   iot-phone-iotf-service:
     label: iotf-service
     plan: iotf-service-free
@@ -15,6 +15,5 @@ applications:
   disk: 128M
   command: node app.js
   path: .
-  domain: mybluemix.net
   memory: 128M 
   instances: 1
