@@ -19,7 +19,9 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
+th a{
+    display:block;
+}
 h1, h3 {
 	font-family: "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: bold;
@@ -45,6 +47,7 @@ p {
 	font-size: 1rem;
 	margin: 0.1em 0;
 }
+
 
 input {
 	color: #000
